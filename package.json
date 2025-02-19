@@ -10,8 +10,10 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "blog"
+  ],
+  "author": "ayuan <1134809127@qq.com>",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.6.3"
