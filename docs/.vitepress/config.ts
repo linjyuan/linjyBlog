@@ -15,12 +15,40 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "前端工程化",
+        items: [
+          { text: '代码规范工具', link: '/engineering/code' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'React',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },
+      {
+        text: 'Vue',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '性能优化',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '难点及解决方案',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/linjyuan/linjyBlog.git' }
