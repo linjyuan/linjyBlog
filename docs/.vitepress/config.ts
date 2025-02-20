@@ -18,25 +18,18 @@ export default defineConfig({
         text: "前端工程化",
         items: [
           { text: '代码规范工具', link: '/engineering/code' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '前端性能优化', link: '/engineering/optimize' }
         ]
       },
       {
         text: 'React',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: '横屏签字框', link: '/react/React-sign' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
       {
         text: 'Vue',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: '性能优化',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
